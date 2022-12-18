@@ -1,0 +1,45 @@
+version: '3'
+vars:
+  BUILD_HARNESS_URL: https://github.com/cloudopsy/build-harness.git
+  BUILD_HARNESS_PATH: "{{.ROOT_DIR}}/.build-harness"
+includes:
+  build-harness:
+    taskfile: .build-harness/Taskfile.yaml
+    optional: true
+tasks:
+  help:
+    cmds:
+      - task -l
+    silent: true
+    desc: "Help"
+  default:
+    deps:
+      - build-harness
+    cmds:
+      - task: help
+  build-harness:
+    summary: |
+      # Downloads build harness
+    cmds:
+      - |
+        if [ ! -d {{.BUILD_HARNESS_PATH}} ]; then
+          git clone {{.BUILD_HARNESS_URL}} {{.BUILD_HARNESS_PATH}}
+        fi
+    silent: true
+
+  lint:
+    desc: "Lint terraform code"
+    summary: |
+      # Lint terraform code
+
+      - terraform:lint
+      - terraform:fmt
+      - terraform:validate
+      - terraform:tfsec:scan
+    deps:
+      - build-harness
+    silent: true
+    cmds:
+      - task build-harness:terraform:lint
+      - task build-harness:terraform:validate
+      - task build-harness:terraform:tfsec:scan
