@@ -5,7 +5,7 @@
 
 [![README Header][readme_header_img]][readme_header_link]
 
-[![Cloud Posse][logo]](https://cpco.io/homepage)
+[![Cloudopsy][logo]](https://cpco.io/homepage)
 
 <!--
 
@@ -219,9 +219,9 @@ All other trademarks referenced herein are the property of their respective owne
 
 ## About
 
-This project is maintained and funded by [Cloud Posse, LLC][website]. Like it? Please let us know by [leaving a testimonial][testimonial]!
+This project is maintained and funded by [Cloudopsy, LLC][website]. Like it? Please let us know by [leaving a testimonial][testimonial]!
 
-[![Cloud Posse][logo]][website]
+[![Cloudopsy][logo]][website]
 
 We're a [DevOps Professional Services][hire] company based in Los Angeles, CA. We ❤️  [Open Source Software][we_love_open_source].
 
