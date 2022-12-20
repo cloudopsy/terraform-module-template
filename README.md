@@ -73,6 +73,11 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 7. Commit all changes to git and open a pull request on the new repository.
 
 
+## Examples
+
+Here is an example of using this module:
+- [`examples/complete`](https://github.com/cloudopsy/terraform-module-template/) - complete example of using this module
+
 
 
 

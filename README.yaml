@@ -39,6 +39,12 @@ quickstart: |-
   6. Run make pr/auto-format to format the Terraform code and generate documentation.
   7. Commit all changes to git and open a pull request on the new repository.
 
+# Example usage
+examples: |-
+  Here is an example of using this module:
+  - [`examples/complete`](https://github.com/cloudopsy/terraform-module-template/) - complete example of using this module
+
+
 references:
 - name: "Cloudopsy Documentation"
   url: "https://docs.cloudopsy.com"
