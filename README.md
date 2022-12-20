@@ -110,31 +110,20 @@ File a GitHub [issue](https://github.com/cloudopsy/terraform-module-template/iss
 
 [![README Commercial Support][readme_commercial_support_img]][readme_commercial_support_link]
 
-## DevOps Accelerator for Startups
+## Professional Services
 
+The [**Cloudopsy**](https://cloudopsy.com) team offers a range of professional services to help organizations build and operate their cloud infrastructure. Our services include:
 
-We are a [**DevOps Accelerator**][commercial_support]. We'll help you build your cloud infrastructure from the ground up so you can own it. Then we'll show you how to operate it and stick around for as long as you need us.
+- **Cloud infrastructure design**: We'll work with you to design a scalable and secure cloud infrastructure that meets your specific needs.
+- **CI/CD pipeline implementation**: We'll set up a continuous integration and delivery pipeline to automate the build, test, and deployment of your applications.
+- **Monitoring and alerting**: We'll help you set up monitoring and alerting systems to ensure the availability and performance of your applications.
+- **Security and compliance**: We'll work with you to ensure that your cloud infrastructure meets industry standards and best practices for security and compliance.
+- **Training and support**: We'll provide hands-on training and ongoing support to help your team operate and maintain your cloud infrastructure.
 
-[![Learn More](https://img.shields.io/badge/learn%20more-success.svg?style=for-the-badge)][commercial_support]
-
-Work directly with our team of DevOps experts via email, slack, and video conferencing.
-
-We deliver 10x the value for a fraction of the cost of a full-time engineer. Our track record is not even funny. If you want things done right and you need it done FAST, then we're your best bet.
-
-- **Reference Architecture.** You'll get everything you need from the ground up built using 100% infrastructure as code.
-- **Release Engineering.** You'll have end-to-end CI/CD with unlimited staging environments.
-- **Site Reliability Engineering.** You'll have total visibility into your apps and microservices.
-- **Security Baseline.** You'll have built-in governance with accountability and audit logs for all changes.
-- **GitOps.** You'll be able to operate your infrastructure via Pull Requests.
-- **Training.** You'll receive hands-on training so your team can operate what we build.
-- **Questions.** You'll have a direct line of communication between our teams via a Shared Slack channel.
-- **Troubleshooting.** You'll get help to triage when things aren't working.
-- **Code Reviews.** You'll receive constructive feedback on Pull Requests.
-- **Bug Fixes.** We'll rapidly work with you to fix any bugs in our projects.
 
 ## Slack Community
+Join our [Open Source Community][slack] on Slack! Our community is a place for people with a shared vision for how to rollout and manage infrastructure to connect, ask questions, solicit feedback, and work together. It's **FREE** for everyone to join. We also offer professional services for organizations that need additional assistance.
 
-Join our [Open Source Community][slack] on Slack. It's **FREE** for everyone! Our "SweetOps" community is where you get to talk with others who share a similar vision for how to rollout and manage infrastructure. This is the best place to talk shop, ask questions, solicit feedback, and work together as a community to build totally *sweet* infrastructure.
 
 ## Discourse Forums
 
