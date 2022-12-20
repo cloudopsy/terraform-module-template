@@ -32,6 +32,7 @@ This repository serves as a template for creating high-quality Terraform modules
 
 It follows the standard module structure recommended by HashiCorp and includes all the necessary requirements for publishing a module.
 In addition, this module includes features such as version pinning and automated testing to ensure the reliability and quality of the code.
+
 Please note that this module is intended to be used as a starting point for creating new repositories and is not a useful module by itself.
 
 ---
