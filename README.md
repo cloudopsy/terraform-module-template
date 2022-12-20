@@ -28,9 +28,10 @@
 
 -->
 
-This is an example project to provide all the scaffolding for a typical well-built Cloud Posse
-Terraform module for AWS resources. It's a template repository you can
-use when creating new repositories. This is not a useful module by itself.
+This repository serves as a template for creating high-quality Terraform modules for AWS resources.
+It follows the standard module structure recommended by HashiCorp and includes all the necessary requirements for publishing a module.
+In addition, this module includes features such as version pinning and automated testing to ensure the reliability and quality of the code.
+Please note that this module is intended to be used as a starting point for creating new repositories and is not a useful module by itself.
 
 ---
 
@@ -61,16 +62,13 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 ## Quick Start
 
-1. Use this repo as a template for a new repo.
-2. Check out the new repo and create a `git` branch to work on.
-3. Replace the Terraform code at the root of the repo with the code you want to publish.
-4. Replace the code in `examples/complete` with Terraform code that will make a good automated test.
-   Please keep `context.tf` and `fixtures.us-east-2.tfvars` in place and change only `name`, leaving
-   `region`, `namespace`, `environment`, and `stage` as is. Provide outputs that will be useful for testing.
-5. Update `test/src/examples_complete_test.go` to verify the outputs of running `terraform apply` on `examples/complete`.
-6. Run `make github/init` to update the repo with the current Cloud Posse framework files (e.g. `CODEOWNERS`).
-7. Run `make pr/auto-format` to format the Terraform code and generate documentation.
-8. Commit everything to `git` and open your first PR on the new repo.
+1. Create a new repository and check out the branch you want to work on.
+2. Replace the Terraform code at the root of the repository with the code you want to publish.
+3. Update the code in the examples/complete directory to include Terraform code that will make a good automated test. Please keep the context.tf and fixtures.us-east-2.tfvars files in place and only change the name, leaving the region, namespace, environment, and stage as is.
+4. Update the test/src/examples_complete_test.go file to verify the outputs of running terraform apply on the examples/complete directory.
+5. Run make github/init to update the repository with the current Cloud Posse framework files (e.g. CODEOWNERS).
+6. Run make pr/auto-format to format the Terraform code and generate documentation.
+7. Commit all changes to git and open a pull request on the new repository.
 
 
 
@@ -79,7 +77,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 ## Share the Love
 
-Like this project? Please give it a ★ on [our GitHub](https://github.com/cloudposse/terraform-example-module)! (it helps us **a lot**)
+Like this project? Please give it a ★ on [our GitHub](https://github.com/cloudopsy/terraform-module-template)! (it helps us **a lot**)
 
 Are you using this project or any of our other projects? Consider [leaving a testimonial][testimonial]. =)
 
@@ -89,7 +87,7 @@ Are you using this project or any of our other projects? Consider [leaving a tes
 
 Check out these related projects.
 
-- [Example App](https://github.com/cloudposse/example-app) - Example application for CI/CD demonstrations of Codefresh
+- [Example App](https://github.com/cloudopsy/example-app) - Example application for CI/CD demonstrations of Github Actions
 
 
 ## References
@@ -106,7 +104,7 @@ For additional context, refer to some of these links.
 
 **Got a question?** We got answers.
 
-File a GitHub [issue](https://github.com/cloudposse/terraform-example-module/issues), send us an [email][email] or join our [Slack Community][slack].
+File a GitHub [issue](https://github.com/cloudopsy/terraform-module-template/issues), send us an [email][email] or join our [Slack Community][slack].
 
 [![README Commercial Support][readme_commercial_support_img]][readme_commercial_support_link]
 
@@ -154,7 +152,7 @@ Sign up for [our newsletter][newsletter] that covers everything on our technolog
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/cloudposse/terraform-example-module/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/cloudopsy/terraform-module-template/issues) to report any bugs or file feature requests.
 
 ### Developing
 
@@ -234,33 +232,33 @@ Check out [our other projects][github], [follow us on twitter][twitter], [apply 
 [![Beacon][beacon]][website]
 <!-- markdownlint-disable -->
   [logo]: https://cloudopsy.com/logo-300x69.svg
-  [docs]: https://cpco.io/docs?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=docs
-  [website]: https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=website
-  [github]: https://cpco.io/github?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=github
-  [jobs]: https://cpco.io/jobs?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=jobs
-  [hire]: https://cpco.io/hire?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=hire
-  [slack]: https://cpco.io/slack?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=slack
-  [linkedin]: https://cpco.io/linkedin?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=linkedin
-  [twitter]: https://cpco.io/twitter?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=twitter
-  [testimonial]: https://cpco.io/leave-testimonial?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=testimonial
-  [office_hours]: https://cloudopsy.com/office-hours?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=office_hours
-  [newsletter]: https://cpco.io/newsletter?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=newsletter
-  [discourse]: https://ask.sweetops.com/?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=discourse
-  [email]: https://cpco.io/email?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=email
-  [commercial_support]: https://cpco.io/commercial-support?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=commercial_support
-  [we_love_open_source]: https://cpco.io/we-love-open-source?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=we_love_open_source
-  [terraform_modules]: https://cpco.io/terraform-modules?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=terraform_modules
+  [docs]: https://cpco.io/docs?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=docs
+  [website]: https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=website
+  [github]: https://cpco.io/github?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=github
+  [jobs]: https://cpco.io/jobs?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=jobs
+  [hire]: https://cpco.io/hire?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=hire
+  [slack]: https://cpco.io/slack?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=slack
+  [linkedin]: https://cpco.io/linkedin?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=linkedin
+  [twitter]: https://cpco.io/twitter?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=twitter
+  [testimonial]: https://cpco.io/leave-testimonial?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=testimonial
+  [office_hours]: https://cloudopsy.com/office-hours?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=office_hours
+  [newsletter]: https://cpco.io/newsletter?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=newsletter
+  [discourse]: https://ask.sweetops.com/?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=discourse
+  [email]: https://cpco.io/email?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=email
+  [commercial_support]: https://cpco.io/commercial-support?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=commercial_support
+  [we_love_open_source]: https://cpco.io/we-love-open-source?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=we_love_open_source
+  [terraform_modules]: https://cpco.io/terraform-modules?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=terraform_modules
   [readme_header_img]: https://cloudopsy.com/readme/header/img
-  [readme_header_link]: https://cloudopsy.com/readme/header/link?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=readme_header_link
+  [readme_header_link]: https://cloudopsy.com/readme/header/link?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=readme_header_link
   [readme_footer_img]: https://cloudopsy.com/readme/footer/img
-  [readme_footer_link]: https://cloudopsy.com/readme/footer/link?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=readme_footer_link
+  [readme_footer_link]: https://cloudopsy.com/readme/footer/link?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=readme_footer_link
   [readme_commercial_support_img]: https://cloudopsy.com/readme/commercial-support/img
-  [readme_commercial_support_link]: https://cloudopsy.com/readme/commercial-support/link?utm_source=github&utm_medium=readme&utm_campaign=cloudposse/terraform-example-module&utm_content=readme_commercial_support_link
-  [share_twitter]: https://twitter.com/intent/tweet/?text=terraform-module-template&url=https://github.com/cloudposse/terraform-example-module
-  [share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-module-template&url=https://github.com/cloudposse/terraform-example-module
-  [share_reddit]: https://reddit.com/submit/?url=https://github.com/cloudposse/terraform-example-module
-  [share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/cloudposse/terraform-example-module
-  [share_googleplus]: https://plus.google.com/share?url=https://github.com/cloudposse/terraform-example-module
-  [share_email]: mailto:?subject=terraform-module-template&body=https://github.com/cloudposse/terraform-example-module
-  [beacon]: https://ga-beacon.cloudopsy.com/UA-76589703-4/cloudposse/terraform-example-module?pixel&cs=github&cm=readme&an=terraform-example-module
+  [readme_commercial_support_link]: https://cloudopsy.com/readme/commercial-support/link?utm_source=github&utm_medium=readme&utm_campaign=cloudopsy/terraform-module-template&utm_content=readme_commercial_support_link
+  [share_twitter]: https://twitter.com/intent/tweet/?text=terraform-module-template&url=https://github.com/cloudopsy/terraform-module-template
+  [share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-module-template&url=https://github.com/cloudopsy/terraform-module-template
+  [share_reddit]: https://reddit.com/submit/?url=https://github.com/cloudopsy/terraform-module-template
+  [share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/cloudopsy/terraform-module-template
+  [share_googleplus]: https://plus.google.com/share?url=https://github.com/cloudopsy/terraform-module-template
+  [share_email]: mailto:?subject=terraform-module-template&body=https://github.com/cloudopsy/terraform-module-template
+  [beacon]: https://ga-beacon.cloudopsy.com/UA-76589703-4/cloudopsy/terraform-module-template?pixel&cs=github&cm=readme&an=terraform-module-template
 <!-- markdownlint-restore -->
