@@ -90,7 +90,7 @@ copyrights:
     year: "2022"
 
 # Canonical GitHub repo
-github_repo:
+github_repo: cloudopsy/terraform-module-template
 
 # Badges to display
 badges:

@@ -124,21 +124,6 @@ The [**Cloudopsy**](https://cloudopsy.com) team offers a range of professional s
 ## Slack Community
 Join our [Open Source Community][slack] on Slack! Our community is a place for people with a shared vision for how to rollout and manage infrastructure to connect, ask questions, solicit feedback, and work together. It's **FREE** for everyone to join. We also offer professional services for organizations that need additional assistance.
 
-
-## Discourse Forums
-
-Participate in our [Discourse Forums][discourse]. Here you'll find answers to commonly asked questions. Most questions will be related to the enormous number of projects we support on our GitHub. Come here to collaborate on answers, find solutions, and get ideas about the products and services we value. It only takes a minute to get started! Just sign in with SSO using your GitHub account.
-
-## Newsletter
-
-Sign up for [our newsletter][newsletter] that covers everything on our technology radar.  Receive updates on what we're up to on GitHub as well as awesome new projects we discover.
-
-## Office Hours
-
-[Join us every Wednesday via Zoom][office_hours] for our weekly "Lunch & Learn" sessions. It's **FREE** for everyone!
-
-[![zoom](https://img.cloudopsy.com/fit-in/200x200/https://cloudposse.com/wp-content/uploads/2019/08/Powered-by-Zoom.png")][office_hours]
-
 ## Contributing
 
 ### Bug Reports & Feature Requests
