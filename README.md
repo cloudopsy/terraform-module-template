@@ -60,8 +60,6 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
-/Users/netf/Projects/cloudopsy/terraform/terraform-module-template/main.tf
-
 
 ## Security & Compliance [<img src="https://cloudopsy.com/wp-content/uploads/2020/11/bridgecrew.svg" width="250" align="right" />](https://bridgecrew.io/)
 
