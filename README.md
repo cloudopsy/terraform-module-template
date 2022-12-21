@@ -97,12 +97,6 @@ Security scanning is graciously provided by Bridgecrew. Bridgecrew is the leadin
 | [![HIPAA](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=HIPAA) | Health Insurance Portability and Accountability Compliance |
 
 
-## Share the Love
-
-Like this project? Please give it a ★ on [our GitHub](https://github.com/cloudopsy/terraform-module-template)! (it helps us **a lot**)
-
-Are you using this project or any of our other projects? Consider [leaving a testimonial][testimonial]. =)
-
 
 
 ## Related Projects
@@ -122,13 +116,6 @@ For additional context, refer to some of these links.
 - [Terraform Version Pinning](https://www.terraform.io/docs/language/settings/index.html#specifying-a-required-terraform-version) - The required_version setting can be used to constrain which versions of the Terraform CLI can be used with your configuration
 
 
-## Help
-
-**Got a question?** We got answers.
-
-File a GitHub [issue](https://github.com/cloudopsy/terraform-module-template/issues), send us an [email][email] or join our [Slack Community][slack].
-
-[![README Commercial Support][readme_commercial_support_img]][readme_commercial_support_link]
 
 ## Professional Services
 
