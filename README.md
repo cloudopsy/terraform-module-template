@@ -39,14 +39,6 @@ Please note that this module is intended to be used as a starting point for crea
 
 ---
 
-This project is part of our comprehensive ["SweetOps"](https://cpco.io/sweetops) approach towards DevOps.
-[<img align="right" title="Share on LinkedIn" src="https://docs.cloudopsy.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />][share_linkedin]
-[<img align="right" title="Share on Twitter" src="https://docs.cloudopsy.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />][share_twitter]
-
-
-[![Terraform Open Source Modules](https://docs.cloudopsy.com/images/terraform-open-source-modules.svg)][terraform_modules]
-
-
 
 It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
