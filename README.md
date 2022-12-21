@@ -56,23 +56,6 @@ We have a vast selection of high-quality, Open Source [*Terraform modules*][terr
 
 
 
-## Security & Compliance [<img src="https://cloudopsy.com/wp-content/uploads/2020/11/bridgecrew.svg" width="250" align="right" />](https://bridgecrew.io/)
-
-Security scanning is graciously provided by Bridgecrew. Bridgecrew is the leading fully hosted, cloud-native solution providing continuous Terraform security and compliance.
-
-| Benchmark | Description |
-|--------|---------------|
-| [![Infrastructure Security](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=INFRASTRUCTURE+SECURITY) | Infrastructure Security Compliance |
-| [![CIS KUBERNETES](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_kubernetes)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+KUBERNETES+V1.5) | Center for Internet Security, KUBERNETES Compliance |
-| [![CIS AWS](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+AWS+V1.2) | Center for Internet Security, AWS Compliance |
-| [![CIS AZURE](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_azure)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+AZURE+V1.1) | Center for Internet Security, AZURE Compliance |
-| [![PCI-DSS](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=PCI-DSS+V3.2) | Payment Card Industry Data Security Standards Compliance |
-| [![NIST-800-53](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=NIST-800-53) | National Institute of Standards and Technology Compliance |
-| [![ISO27001](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/iso)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=ISO27001) | Information Security Management System, ISO/IEC 27001 Compliance |
-| [![SOC2](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/soc2)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=SOC2)| Service Organization Control 2 Compliance |
-| [![CIS GCP](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_gcp)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+GCP+V1.1) | Center for Internet Security, GCP Compliance |
-| [![HIPAA](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=HIPAA) | Health Insurance Portability and Accountability Compliance |
-
 
 
 
@@ -94,6 +77,24 @@ Here is an example of using this module:
 
 
 
+
+
+## Security & Compliance [<img src="https://cloudopsy.com/wp-content/uploads/2020/11/bridgecrew.svg" width="250" align="right" />](https://bridgecrew.io/)
+
+Security scanning is graciously provided by Bridgecrew. Bridgecrew is the leading fully hosted, cloud-native solution providing continuous Terraform security and compliance.
+
+| Benchmark | Description |
+|--------|---------------|
+| [![Infrastructure Security](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=INFRASTRUCTURE+SECURITY) | Infrastructure Security Compliance |
+| [![CIS KUBERNETES](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_kubernetes)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+KUBERNETES+V1.5) | Center for Internet Security, KUBERNETES Compliance |
+| [![CIS AWS](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+AWS+V1.2) | Center for Internet Security, AWS Compliance |
+| [![CIS AZURE](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_azure)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+AZURE+V1.1) | Center for Internet Security, AZURE Compliance |
+| [![PCI-DSS](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=PCI-DSS+V3.2) | Payment Card Industry Data Security Standards Compliance |
+| [![NIST-800-53](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=NIST-800-53) | National Institute of Standards and Technology Compliance |
+| [![ISO27001](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/iso)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=ISO27001) | Information Security Management System, ISO/IEC 27001 Compliance |
+| [![SOC2](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/soc2)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=SOC2)| Service Organization Control 2 Compliance |
+| [![CIS GCP](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/cis_gcp)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=CIS+GCP+V1.1) | Center for Internet Security, GCP Compliance |
+| [![HIPAA](https://www.bridgecrew.cloud/badges/github/cloudopsy/terraform-module-template/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=cloudopsy%2Fterraform-module-template&benchmark=HIPAA) | Health Insurance Portability and Accountability Compliance |
 
 
 ## Share the Love
