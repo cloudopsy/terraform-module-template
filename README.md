@@ -56,7 +56,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 
 
-We literally have [*hundreds of terraform modules*][terraform_modules] that are Open Source and well-maintained. Check them out!
+"We've got a ton of Open Source [*terraform modules*][terraform_modules] that are so well-maintained, they practically take care of themselves! Come check 'em out, if you dare."
 
 
 
