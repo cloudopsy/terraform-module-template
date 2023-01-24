@@ -155,7 +155,7 @@ In general, PRs are welcome. We follow the typical "fork-and-pull" Git workflow.
 
 ## Copyrights
 
-Copyright © 2022-2022 [Cloudopsy, LTD](https://cloudopsy.com)
+Copyright © 2022-2023 [Cloudopsy, LTD](https://cloudopsy.com)
 
 
 
