@@ -18,7 +18,9 @@ tasks:
   default:
     deps:
       - build-harness
+    silent: true
     cmds:
+      - task build-harness:utils:print_info MESSAGE="Terraform module"
       - task: help
   build-harness:
     summary: |
@@ -40,8 +42,24 @@ tasks:
     silent: true
     dir: "test"
     cmds:
+      - task build-harness:utils:print_info MESSAGE="Testing terraform module"
       - go mod download
       - go test -v -timeout 60m
+
+  docs:
+    desc: "Generate documentation"
+    summary: |
+      # Generate documentation
+
+      - README.md
+      - docs/*
+    deps:
+      - build-harness
+    silent: true
+    cmds:
+      - task build-harness:utils:print_info MESSAGE="Generating documentation"
+      - task build-harness:readme:build
+
   lint:
     desc: "Lint terraform code"
     summary: |
@@ -55,6 +73,8 @@ tasks:
       - build-harness
     silent: true
     cmds:
+      - task build-harness:utils:print_info MESSAGE="Validating terraform configuration"
       - task build-harness:terraform:lint
       - task build-harness:terraform:validate
+      - task build-harness:utils:print_info MESSAGE="Running tfsec security scan"
       - task build-harness:terraform:tfsec:scan
