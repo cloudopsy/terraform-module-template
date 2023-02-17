@@ -73,8 +73,12 @@ tasks:
       - build-harness
     silent: true
     cmds:
-      - task build-harness:utils:print_info MESSAGE="Validating terraform configuration"
+      - task build-harness:utils:print_info MESSAGE="Initializing terraform"
+      - task build-harness:terraform:init
+      - task build-harness:utils:print_info MESSAGE="Linting terraform configuration"
       - task build-harness:terraform:lint
       - task build-harness:terraform:validate
       - task build-harness:utils:print_info MESSAGE="Running tfsec security scan"
       - task build-harness:terraform:tfsec:scan
+      - task build-harness:utils:print_info MESSAGE="Running checkov security scan"
+      - task build-harness:terraform:checkov:scan
